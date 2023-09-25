@@ -1,0 +1,5 @@
+export {default as Header} from './header/Header'
+export {default as Credit} from './Credit/Credit'
+export {default as About} from './about/About'
+export {default as Brand} from './Brand/Brand'
+export {default as Footer} from './Footer/Footer'
