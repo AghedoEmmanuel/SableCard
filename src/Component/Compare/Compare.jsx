@@ -11,7 +11,7 @@ const Compare = () => {
                 <h1 className='md:leading-loose font-bold md:text-7xl text-xl'>Compare Sable  .  Compare Sable</h1>
             </div>
 
-            <table className='md:table-auto table-fixed'>
+            <table className='md:table-auto'>
 
                 <thead>
                     <tr>
@@ -70,11 +70,13 @@ const Compare = () => {
 
                 </tbody>
 
+                <tbody>
                 <tr>
-                    <td className=''></td>
-                    <td className='md:px-28 md:py-4 '><a className='border-2 rounded-3xl py-2 px-4 bg-teal-600 border-black text-black'>Get Credit & Debit</a></td>
+                    <td></td>
+                    <td className='md:px-28 py-4'><a className='md:border-2 rounded-3xl py-2 md:px-4 bg-teal-600 border-black text-black'>Get Credit & Debit</a></td>
                     <td className='md:px-28 py-4'><a className='border-2 rounded-3xl py-2 px-4 bg-teal-600 border-black text-black'>Get Debit</a></td>
                 </tr>
+                </tbody>
 
             </table>
         </div>
