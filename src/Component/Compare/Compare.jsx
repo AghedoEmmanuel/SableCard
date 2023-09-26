@@ -72,7 +72,7 @@ const Compare = () => {
 
                 <tr>
                     <td className=''></td>
-                    <td className='md:px-28 py-4 '><a className='border-2 rounded-3xl py-2 px-4 bg-teal-600 border-black text-black'>Get Credit & Debit</a></td>
+                    <td className='md:px-28 md:py-4 '><a className='border-2 rounded-3xl py-2 px-4 bg-teal-600 border-black text-black'>Get Credit & Debit</a></td>
                     <td className='md:px-28 py-4'><a className='border-2 rounded-3xl py-2 px-4 bg-teal-600 border-black text-black'>Get Debit</a></td>
                 </tr>
 

@@ -7,7 +7,7 @@ import display from '../../assets/home-sub-mockup-p-1600.png.svg'
 import yahoo from '../../assets/Logo_Yahoo_Finance.svg.svg'
 import bloomberg from '../../assets/Logo_Bloomberg.svg.svg'
 import business from '../../assets/Logo_Business_Insider.svg.svg'
-import forbes from '../../assets/Logo_Forbes.svg.svg'
+import forbes from '../../assets/forbes.png'
 
 const Credit = () => {
     return (
@@ -74,9 +74,9 @@ const Credit = () => {
                     <div>
                     <img src={business} alt='business_insider_icon' />
                     </div>
-                    <div>
-                    <img src={forbes} alt='forbes_icon' />
-                    </div>
+                    {/* <div>
+                    <img src={forbes} alt='forbes_icon' className='bg-zinc-800'/>
+                    </div> */}
                 </div>
             </div>
 
